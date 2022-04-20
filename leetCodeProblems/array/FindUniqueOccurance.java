@@ -1,5 +1,5 @@
 
-package leetCodeProblems.array;
+
 
 import java.util.HashMap;
 import java.util.HashSet;
