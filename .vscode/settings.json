@@ -4,7 +4,12 @@
         "type_traits": "cpp",
         "ostream": "cpp",
         "__bit_reference": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "__split_buffer": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "iosfwd": "cpp",
+        "iterator": "cpp"
     },
     "C_Cpp.errorSquiggles": "Disabled"
 }
