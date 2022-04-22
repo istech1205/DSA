@@ -1,9 +1,10 @@
 package leetCodeProblems.array;
 
-
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-public class TwoSum {
+public class FourthSum {
 
     public static void main(String[] args) {
         int n;
@@ -21,14 +22,19 @@ public class TwoSum {
         int target;
         target = sc.nextInt();
 
-        // List<Integer> ans = new ArrayList<>();
-        int ans[] = new int[2];
+        List<Integer> ans = new ArrayList<>();
+
         for (int i = 0; i < n; i++) {
             for (int j = i + 1; j < n; j++) {
-                if (arr[i] + arr[j] == target) {
-                    ans[0] = i;
-                    ans[1] = j;
+                for (int k = j + 1; k < n; k++) {
+                    if (arr[i] + arr[j] + arr[k] == target) {
+                        ans.add(0);
+                        ans.add(1);
+                        ans.add(2);
+                       
+                    }
                 }
+               
             }
         }
         System.out.println("Array indexes is ..." + ans);
