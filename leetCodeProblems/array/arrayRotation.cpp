@@ -27,6 +27,6 @@ int main()
         newArr[i] = arr[i];
         cout << newArr[i];
     }
-
+    
     return 0;
 }
