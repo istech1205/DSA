@@ -27,6 +27,7 @@ vector<vector<int> > main()
                 temp.push_back(min(arr[i], arr[j]));
                 temp.push_back(max(arr[i], arr[j]));
                 ans.push_back(temp);
+                
             }
         }
     }
