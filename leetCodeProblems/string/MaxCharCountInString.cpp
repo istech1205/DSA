@@ -2,7 +2,7 @@
 using namespace std;
 
 char getMax
-
+    
     int
     main()
 {
